@@ -49,6 +49,6 @@
 <image src="https://github.com/aniketpandey2912/pdf-extractor-frontend/blob/master/public/5.png?raw=true" width="100%" />
 
 <h4>Mobile View.</h4>
-<image src="https://github.com/aniketpandey2912/pdf-extractor-frontend/blob/master/public/6.png?raw=true" width="100%" />
+<image src="https://github.com/aniketpandey2912/pdf-extractor-frontend/blob/master/public/6.png?raw=true" width="40%" />
 
 <p>Now you can open the downloaded file and enjoy the view :)</p>
