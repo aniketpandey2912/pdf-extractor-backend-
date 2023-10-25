@@ -33,19 +33,19 @@
 
 <h3>Different States Of App</h3>
 
-<p>First View</p>
-<image src="https://github.com/aniketpandey2912/pdf-extractor-frontend/blob/master/public/1.png?raw=true" width="800" height="400" />
+<h4>First View</h4>
+<image src="https://github.com/aniketpandey2912/pdf-extractor-frontend/blob/master/public/1.png?raw=true" width="100%" />
 
-<p>When you select a file.</p>
-<image src="https://github.com/aniketpandey2912/pdf-extractor-frontend/blob/master/public/2.png?raw=true" width="800" height="400" />
+<h4>When you select a file.</h4>
+<image src="https://github.com/aniketpandey2912/pdf-extractor-frontend/blob/master/public/2.png?raw=true" width="100%" />
 
-<p>After you click on upload file button.</p>
-<image src="https://github.com/aniketpandey2912/pdf-extractor-frontend/blob/master/public/3.png?raw=true" width="800" height="400" />
+<h4>After you click on upload file button.</h4>
+<image src="https://github.com/aniketpandey2912/pdf-extractor-frontend/blob/master/public/3.png?raw=true" width="100%" />
 
-<p>After you select pages and click on extract pdf button</p>
-<image src="https://github.com/aniketpandey2912/pdf-extractor-frontend/blob/master/public/4.png?raw=true" width="800" height="400" />
+<h4>After you select pages and click on extract pdf button</h4>
+<image src="https://github.com/aniketpandey2912/pdf-extractor-frontend/blob/master/public/4.png?raw=true" width="100%" />
 
-<p>once you click on download url.</p>
-<image src="https://github.com/aniketpandey2912/pdf-extractor-frontend/blob/master/public/5.png?raw=true" width="800" height="400" />
+<h4>once you click on download url.</h4>
+<image src="https://github.com/aniketpandey2912/pdf-extractor-frontend/blob/master/public/5.png?raw=true" width="100%" />
 
 <p>Now you can open the downloaded file and enjoy the view :)</p>
