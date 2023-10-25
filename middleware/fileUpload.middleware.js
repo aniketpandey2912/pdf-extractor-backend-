@@ -7,7 +7,7 @@ const storage = multer.diskStorage({
   filename: (req, file, cb) => {
     // Defining unique the file name for the uploaded file
     const fileName = file.originalname;
-    console.log(file);
+    // console.log(file);
     cb(null, fileName);
   },
 });
