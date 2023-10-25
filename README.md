@@ -7,8 +7,18 @@
 </ul>
 
 <h3>Project Installation Steps:</h3>
-<ol>
-    <li>Clone repo: ```git clone https://github.com/aniketpandey2912/pdf-extractor-backend-.git``` </li>
-    <li>install packages: ```npm install```</li>
-    <li>Start server: ```npm run server```</li>
-</ol>
+1. Clone the repo:
+    ```
+    git clone https://github.com/aniketpandey2912/pdf-extractor-backend-.git
+    ```
+
+2. Install packages:
+
+   ```
+   npm install
+   ```
+
+3. Start server:
+   ```
+   npm run server
+   ```
