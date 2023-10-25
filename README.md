@@ -7,10 +7,12 @@
 </ul>
 
 <h3>Project Installation Steps:</h3>
+
 1. Clone the backend repository:
-    ```
-    git clone https://github.com/aniketpandey2912/pdf-extractor-backend-.git 
-    ```
+
+   ```
+   git clone https://github.com/aniketpandey2912/pdf-extractor-backend-.git
+   ```
 
 2. Install packages:
 
