@@ -1,5 +1,4 @@
 const multer = require("multer");
-const { v1 } = require("uuid");
 
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
@@ -7,7 +6,8 @@ const storage = multer.diskStorage({
   },
   filename: (req, file, cb) => {
     // Defining unique the file name for the uploaded file
-    const fileName = v1() + "-" + file.originalname;
+    const fileName = file.originalname;
+    console.log(file);
     cb(null, fileName);
   },
 });

@@ -15,7 +15,6 @@ const outputsDir = path.join(__dirname, "../outputs");
 // File Upload Route
 fileRouter.post("/upload", upload.single("file"), (req, res) => {
   // Check if req.file is defined
-  console.log(req.file);
   if (!req.file) {
     return res.status(400).json({ message: "No file uploaded." });
   }
@@ -44,7 +43,7 @@ fileRouter.post("/extract", async (req, res) => {
 
     // Check if the provided 'filename' exists in the 'uploads' directory
     const filePath = path.join(uploadsDir, req.body.filename);
-    console.log(filePath);
+
     if (!fs.existsSync(filePath)) {
       return res.status(404).json({ message: "File not found." });
     }
@@ -61,7 +60,7 @@ fileRouter.post("/extract", async (req, res) => {
           .json({ message: "Invalid page index provided." });
       }
 
-      const [page] = await extractedPdfDoc.copyPages(pdfDoc, [pageIndex]);
+      const [page] = await extractedPdfDoc.copyPages(pdfDoc, [pageIndex]); // 0 based indexing and from frontend we'll expect 1 based indexed pages
       extractedPdfDoc.addPage(page);
     }
 

@@ -20,12 +20,6 @@ app.get("/", (req, res) => {
 // file route - upload, extract
 app.use("/file", fileRouter);
 
-app.listen(4500, async () => {
-  try {
-    // await connection;
-    console.log("Connected to DB");
-  } catch (err) {
-    console.log("Can't connect to DB", err);
-  }
+app.listen(4500, () => {
   console.log("Server running at port", 4500);
 });
